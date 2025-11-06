@@ -1,4 +1,3 @@
-// Example JS functionality
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("Portfolio loaded successfully!");
+  console.log("🚀 Portfolio loaded successfully!");
 });

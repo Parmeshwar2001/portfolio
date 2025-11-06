@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Hi, I'm Pramesh 👋</h1>
-    <p>Python Developer | Django | REST API | FastAPI</p>
+  <!-- ====== NAVBAR ====== -->
+  <header class="navbar">
+    <div class="logo">Pramesh<span>Karbhari</span></div>
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
@@ -17,34 +17,59 @@
     </nav>
   </header>
 
-  <section id="about">
+  <!-- ====== HERO SECTION ====== -->
+  <section class="hero">
+  <div class="hero-content">
+    <img src="myphoto.jpg" alt="Pramesh Karbhari" class="profile-pic" />
+    <h1>Hi, I'm <span>Pramesh 👋</span></h1>
+    <p class="subtitle">Python Developer | Django | REST API | FastAPI</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </div>
+</section>
+
+
+  <!-- ====== ABOUT SECTION ====== -->
+  <section id="about" class="section about">
     <h2>About Me</h2>
     <p>
-      I'm a passionate Python developer with experience in Django, REST APIs, and MySQL.
-      I enjoy building real-world web apps and learning new technologies.
+      Experienced Python Developer with a proven track record in designing and deploying full-featured web applications. My core competencies include backend development with Django, the creation of high-performance REST APIs, and complex data modeling with MySQL. I am proficient in modernizing applications using FastAPI for high-concurrency needs and integrating Celery for distributed task processing. I am consistently focused on writing clean, testable, and scalable code to deliver digital solutions that are both impactful and maintainable.
     </p>
   </section>
 
-  <section id="projects">
+  <!-- ====== PROJECTS SECTION ====== -->
+  <section id="projects" class="section projects">
     <h2>Projects</h2>
-    <div class="project">
-      <h3>Fetchmatica</h3>
-      <p>Data fetching and automation tool built with Django & Celery.</p>
-    </div>
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>My personal portfolio built with HTML, CSS, and JavaScript.</p>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Fetchmatica</h3>
+        <p>Data fetching and automation tool built with Django & Celery to streamline background processing.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio website built using HTML, CSS, and JavaScript — showcasing my skills and work.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>API Data Dashboard</h3>
+        <p>An interactive dashboard built using FastAPI and Chart.js for visualizing live API data.</p>
+      </div>
     </div>
   </section>
 
-  <section id="contact">
+  <!-- ====== CONTACT SECTION ====== -->
+  <section id="contact" class="section contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:prameshkarbhari10@gmail.com">prameshkarbhari10@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/Parmeshwar2001" target="_blank">Parmeshwar2001</a></p>
+    <p>I'd love to connect! Reach out to me for collaboration or opportunities.</p>
+    <div class="contact-links">
+      <a href="mailto:prameshkarbhari10@gmail.com" class="btn">📧 Email Me</a>
+      <a href="https://github.com/Parmeshwar2001" target="_blank" class="btn github">💻 GitHub</a>
+    </div>
   </section>
 
+  <!-- ====== FOOTER ====== -->
   <footer>
-    <p>© 2025 Pramesh Karbhari. All rights reserved.</p>
+    <p>© 2025 Pramesh Karbhari </p>
   </footer>
 
   <script src="script.js"></script>
